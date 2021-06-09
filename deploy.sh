@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:one-liang/liang.git master:gh-pages
+git push -f git@github.com:one-liang/block-studio-test.git master:gh-pages
 
 cd -
