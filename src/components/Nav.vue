@@ -195,7 +195,7 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-nav.router-link-active {
+nav .router-link-active {
   @apply border-b-2;
 }
 
