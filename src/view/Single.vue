@@ -1,5 +1,5 @@
 <template>
-  <Nav class="text-black" />
+  <Nav class="text-black !relative" />
   <div class="h-screen bg-img"></div>
   <section class="px-4 py-20 bg-gray-100 lg:px-0">
     <div class="container flex flex-col mx-auto gap-28 lg:flex-row">
@@ -199,7 +199,7 @@ export default {
 .bg-img {
   @apply bg-no-repeat bg-center bg-cover bg-fixed;
 
-  background-image: url("https://picsum.photos/id/1059/1920/800");
+  background-image: url("https://picsum.photos/id/144/1920/800");
 }
 
 .logo {
