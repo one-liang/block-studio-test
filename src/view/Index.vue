@@ -1,4 +1,5 @@
 <template>
+  <Nav class="text-white" />
   <section class="relative h-screen bg-img">
     <div
       class="flex flex-col items-center justify-center h-full max-w-5xl mx-auto px-11 lg:px-0"
@@ -120,12 +121,14 @@
 </template>
 
 <script>
+import Nav from "@/components/Nav.vue";
 import CardText from "@/components/Card/CardText.vue";
 import CardImg from "@/components/Card/CardImg.vue";
 
 export default {
   name: 'Index',
   components: {
+    Nav,
     CardText,
     CardImg,
   },

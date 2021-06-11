@@ -1,4 +1,5 @@
 <template>
+  <Nav class="text-black" />
   <div class="h-screen bg-img"></div>
   <section class="px-4 py-20 bg-gray-100 lg:px-0">
     <div class="container flex flex-col mx-auto gap-28 lg:flex-row">
@@ -135,19 +136,41 @@
   </section>
   <div class="flex">
     <button
-      class="flex items-center justify-center flex-1 py-8 border border-black focus:outline-none"
+      class="
+        flex
+        items-center
+        justify-center
+        flex-1
+        py-8
+        border border-[#2C2C2C]
+        transition-colors
+        duration-300
+        hover:bg-gray-200
+        focus:outline-none
+      "
     >
       <Arrow
         class="hidden transform -translate-x-28 lg:block"
         color="bg-gray-800"
         direction="left-0 origin-bottom-left -rotate-45"
       />
-      <span class="text-xl font-black text-gray-800">Previou</span>
+      <span class="text-xl font-medium text-gray-800">Previou</span>
     </button>
     <button
-      class="flex items-center justify-center flex-1 py-8 bg-gray-800 focus:outline-none"
+      class="
+        flex
+        items-center
+        justify-center
+        flex-1
+        py-8
+        bg-[#2C2C2C]
+        transition-colors
+        duration-300
+        hover:bg-black
+        focus:outline-none
+      "
     >
-      <span class="text-xl font-black text-white">Next</span>
+      <span class="text-xl font-medium text-white">Next</span>
       <Arrow
         class="hidden transform translate-x-28 lg:block"
         color="bg-white"
@@ -158,11 +181,16 @@
 </template>
 
 <script>
-import Logo from "../components/Logo.vue";
-import Arrow from "../components/Arrow.vue";
+import Nav from "@/components/Nav.vue";
+import Logo from "@/components/Logo.vue";
+import Arrow from "@/components/Arrow.vue";
 
 export default {
-  components: { Logo, Arrow },
+  components: {
+    Nav,
+    Logo,
+    Arrow,
+  },
   name: "Single",
 };
 </script>
