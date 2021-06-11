@@ -3,7 +3,7 @@
     <div class="flex flex-col flex-wrap items-center p-6 lg:flex-row">
       <Logo />
       <nav
-        class="flex flex-wrap items-center justify-center space-x-12 text-base  lg:ml-auto"
+        class="flex flex-wrap items-center justify-center space-x-12 text-base lg:ml-auto"
       >
         <router-link class="text-lg border-current h-7 hover:border-b-2" to="/"
           >About</router-link
@@ -17,7 +17,7 @@
       </nav>
       <button
         @click="isOpen = !isOpen"
-        class="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded  lg:ml-6 focus:outline-none lg:mt-0"
+        class="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded lg:ml-6 focus:outline-none lg:mt-0"
       >
         <svg
           class="w-5 h-5 fill-current"
@@ -43,12 +43,12 @@
         class="fixed inset-0 z-50 w-screen h-screen bg-gray-300 bg-opacity-80"
       >
         <div
-          class="relative top-0 w-full h-full ml-auto bg-black  lg:w-1/4 bg-opacity-80"
+          class="relative top-0 w-full h-full ml-auto bg-black lg:w-1/4 bg-opacity-80"
         >
           <div class="absolute text-right top-8 right-12">
             <button
               @click="isOpen = false"
-              class="text-white transition-transform duration-300 transform  focus:outline-none hover:rotate-180 hover:scale-125"
+              class="text-white transition-transform duration-300 transform focus:outline-none hover:rotate-180 hover:scale-125"
             >
               <svg
                 class="w-6 h-6 fill-current"
@@ -70,21 +70,21 @@
             <li>
               <router-link
                 to="/"
-                class="px-3 py-2 text-2xl text-white transition-colors duration-300  hover:bg-white hover:text-black text-opacity-90"
+                class="px-3 py-2 text-2xl text-white transition-colors duration-300 hover:bg-white hover:text-black text-opacity-90"
                 >About</router-link
               >
             </li>
             <li>
               <a
                 href="javascript:;"
-                class="px-3 py-2 text-2xl text-white transition-colors duration-300  hover:bg-white hover:text-black text-opacity-90"
+                class="px-3 py-2 text-2xl text-white transition-colors duration-300 hover:bg-white hover:text-black text-opacity-90"
                 >Website</a
               >
             </li>
             <li>
               <router-link
                 to="/single"
-                class="px-3 py-2 text-2xl text-white transition-colors duration-300  hover:bg-white hover:text-black text-opacity-90"
+                class="px-3 py-2 text-2xl text-white transition-colors duration-300 hover:bg-white hover:text-black text-opacity-90"
                 >Branding</router-link
               >
             </li>
@@ -104,10 +104,10 @@
                 </li>
               </ul>
               <span
-                class="inline-flex justify-center mt-4 space-x-8  lg:ml-auto lg:mt-0 lg:justify-start"
+                class="inline-flex justify-center mt-4 space-x-8 lg:ml-auto lg:mt-0 lg:justify-start"
               >
                 <a
-                  class="self-start text-white transition-opacity duration-300  hover:opacity-70"
+                  class="self-start text-white transition-opacity duration-300 hover:opacity-70"
                   href="javascript:;"
                 >
                   <svg
@@ -128,7 +128,7 @@
                   </svg>
                 </a>
                 <a
-                  class="self-start text-white transition-opacity duration-300  hover:opacity-70"
+                  class="self-start text-white transition-opacity duration-300 hover:opacity-70"
                   href="javascript:;"
                 >
                   <svg
@@ -149,7 +149,7 @@
                   </svg>
                 </a>
                 <a
-                  class="self-start text-white transition-opacity duration-300  hover:opacity-70"
+                  class="self-start text-white transition-opacity duration-300 hover:opacity-70"
                   href="javascript:;"
                 >
                   <svg
@@ -188,14 +188,8 @@ export default {
   },
   data() {
     return {
-      isOpen: true,
+      isOpen: false,
     };
-  },
-  methods: {
-    openMenu() {
-      console.log("openMenu");
-      this.isOpen = true;
-    },
   },
 };
 </script>
