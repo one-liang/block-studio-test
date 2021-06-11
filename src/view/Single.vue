@@ -104,7 +104,7 @@
         src="https://picsum.photos/id/1081/1920/800"
       />
       <button
-        class="absolute overflow-hidden transform -rotate-90 -translate-x-1/2 -translate-y-1/2 bg-gray-500 rounded-full left-1/2 top-1/2 focus:outline-none"
+        class="absolute overflow-hidden transform -rotate-90 -translate-x-1/2 -translate-y-1/2 bg-gray-500 rounded-full  left-1/2 top-1/2 focus:outline-none"
       >
         <svg
           class="w-16 h-16 -m-1 text-white lg:w-24 lg:h-24"
@@ -186,12 +186,12 @@ import Logo from "@/components/Logo.vue";
 import Arrow from "@/components/Arrow.vue";
 
 export default {
+  name: "Single",
   components: {
     Nav,
     Logo,
     Arrow,
   },
-  name: "Single",
 };
 </script>
 

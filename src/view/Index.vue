@@ -2,15 +2,41 @@
   <Nav class="text-white" />
   <section class="relative h-screen bg-img">
     <div
-      class="flex flex-col items-center justify-center h-full max-w-5xl mx-auto px-11 lg:px-0"
+      class="
+        flex flex-col
+        items-center
+        justify-center
+        h-full
+        max-w-5xl
+        mx-auto
+        px-11
+        lg:px-0
+      "
     >
       <h1
-        class="mb-6 text-xl font-black leading-tight text-center text-white lg:text-6xl filter drop-shadow"
+        class="
+          mb-6
+          text-xl
+          font-black
+          leading-tight
+          text-center text-white
+          lg:text-6xl
+          filter
+          drop-shadow
+        "
       >
         Commercial builders with pride - workmanship that values quality.
       </h1>
       <p
-        class="px-8 text-xs text-center text-white lg:text-base lg:leading-7 lg:px-24 filter drop-shadow"
+        class="
+          px-8
+          text-xs text-center text-white
+          lg:text-base
+          lg:leading-7
+          lg:px-24
+          filter
+          drop-shadow
+        "
       >
         Acclaim Contractors are a highly specialised local business with over 20
         years building and civil industry experience with many accolades,
@@ -20,13 +46,35 @@
       </p>
     </div>
     <span
-      class="absolute text-xs text-white transform -translate-y-1/2 whitespace-nowrap left-6 top-1/2 text-vertical"
+      class="
+        absolute
+        text-xs text-white
+        transform
+        -translate-y-1/2
+        whitespace-nowrap
+        left-6
+        top-1/2
+        text-vertical
+      "
       >Block Studio©2018 Copyright. All Rights Reserved</span
     >
     <div
-      class="absolute flex space-x-16 transform -translate-x-1/2 left-1/2 bottom-6 lg:left-6 lg:translate-x-0"
+      class="
+        absolute
+        flex
+        space-x-16
+        transform
+        -translate-x-1/2
+        left-1/2
+        bottom-6
+        lg:left-6
+        lg:translate-x-0
+      "
     >
-      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
+      <a
+        class="text-white transition-opacity duration-300 hover:opacity-70"
+        href="javascript:;"
+      >
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -44,7 +92,10 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
+      <a
+        class="text-white transition-opacity duration-300 hover:opacity-70"
+        href="javascript:;"
+      >
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -62,7 +113,10 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
+      <a
+        class="text-white transition-opacity duration-300 hover:opacity-70"
+        href="javascript:;"
+      >
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -82,7 +136,17 @@
       </a>
     </div>
     <div
-      class="absolute flex flex-col items-center transform -translate-x-1/2 left-1/2 bottom-20 lg:bottom-6"
+      class="
+        absolute
+        flex flex-col
+        items-center
+        transform
+        -translate-x-1/2
+        animate-bounce
+        left-1/2
+        bottom-20
+        lg:bottom-6
+      "
     >
       <p class="mb-2 text-sm text-white">Scroll</p>
       <span class="w-px h-12 border lg:h-16"></span>
@@ -107,13 +171,23 @@
   </section>
   <section class="container pb-16 mx-auto text-center">
     <div class="w-px h-32 mx-auto my-6 bg-black"></div>
-    <h3
-      class="max-w-3xl mx-auto mb-4 text-3xl font-medium text-gray-700"
-    >
+    <h3 class="max-w-3xl mx-auto mb-4 text-3xl font-medium text-gray-700">
       Woden Public Realm Improvements Works Package 1 Including Lift & Stairs.
     </h3>
     <button
-      class="px-24 py-3 mx-auto text-lg font-medium transition-colors border border-black rounded-sm hover:bg-black hover:text-white focus:outline-none"
+      class="
+        px-24
+        py-3
+        mx-auto
+        text-lg
+        font-medium
+        transition-colors
+        border border-black
+        rounded-sm
+        hover:bg-black
+        hover:text-white
+        focus:outline-none
+      "
     >
       More
     </button>
@@ -126,7 +200,7 @@ import CardText from "@/components/Card/CardText.vue";
 import CardImg from "@/components/Card/CardImg.vue";
 
 export default {
-  name: 'Index',
+  name: "Index",
   components: {
     Nav,
     CardText,
@@ -176,7 +250,7 @@ export default {
       ],
     };
   },
-}
+};
 </script>
 
 <style lang="postcss" scoped>
