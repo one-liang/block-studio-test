@@ -1,5 +1,5 @@
 <template>
-  <a class="text-white font-black text-4xl border-t-4 border-white" href="javascript:;">B</a>
+  <a class="text-4xl font-black text-current border-t-4 border-current" href="javascript:;">B</a>
 </template>
 
 <script>

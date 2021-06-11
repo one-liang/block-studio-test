@@ -1,21 +1,21 @@
 <template>
   <footer class="bg-black">
-  <div class="container px-5 py-8 mx-auto flex lg:flex-row lg:px-0 flex-col">
+  <div class="container flex flex-col px-5 py-8 mx-auto lg:flex-row lg:px-0">
     <Logo class="mx-auto mb-2 lg:mr-16 lg:mb-0 lg:ml-0" />
     <div class="flex flex-col">
       <div class="flex justify-between mb-3">
-        <a class="text-white text-lg" href="javascript:;">About</a>
-        <a class="text-white text-lg" href="javascript:;">Website</a>
-        <a class="text-white text-lg" href="javascript:;">Branding</a>
+        <a class="text-lg text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">About</a>
+        <a class="text-lg text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">Website</a>
+        <a class="text-lg text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">Branding</a>
       </div>
-      <ul class="space-y-1 mb-2">
+      <ul class="mb-2 space-y-1">
         <li class="text-sm text-white">T. 02-2885-8586</li>
         <li class="text-sm text-white">E. info@blockstudio.tw</li>
         <li class="text-sm text-white">3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwan</li>
       </ul>
     </div>
-    <span class="inline-flex lg:ml-auto lg:mt-0 mt-4 justify-center lg:justify-start space-x-8">
-      <a class="text-white" href="javascript:;">
+    <span class="inline-flex justify-center mt-4 space-x-8 lg:ml-auto lg:mt-0 lg:justify-start">
+      <a class="self-start text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -33,7 +33,7 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white" href="javascript:;">
+      <a class="self-start text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -51,7 +51,7 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white" href="javascript:;">
+      <a class="self-start text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"

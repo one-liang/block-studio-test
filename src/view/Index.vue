@@ -1,6 +1,5 @@
 <template>
-
-  <div class="relative h-screen bg-img">
+  <section class="relative h-screen bg-img">
     <div
       class="flex flex-col items-center justify-center h-full max-w-5xl mx-auto px-11 lg:px-0"
     >
@@ -26,7 +25,7 @@
     <div
       class="absolute flex space-x-16 transform -translate-x-1/2 left-1/2 bottom-6 lg:left-6 lg:translate-x-0"
     >
-      <a class="text-white" href="javascript:;">
+      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -44,7 +43,7 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white" href="javascript:;">
+      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -62,7 +61,7 @@
           ></path>
         </svg>
       </a>
-      <a class="text-white" href="javascript:;">
+      <a class="text-white transition-opacity duration-300 hover:opacity-70" href="javascript:;">
         <svg
           class="w-6 h-6 fill-current"
           aria-hidden="true"
@@ -87,7 +86,7 @@
       <p class="mb-2 text-sm text-white">Scroll</p>
       <span class="w-px h-12 border lg:h-16"></span>
     </div>
-  </div>
+  </section>
   <section class="container py-16 mx-auto">
     <h2 class="mb-16 text-6xl font-black text-center">Works</h2>
     <div class="flex flex-col flex-wrap lg:space-x-6 lg:flex-row">
@@ -177,9 +176,9 @@ export default {
 }
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 .bg-img {
-  @apply filter grayscale bg-no-repeat bg-center bg-cover;
+  @apply filter grayscale bg-no-repeat bg-center bg-cover bg-fixed;
 
   background-image: url("https://picsum.photos/id/1033/1920/800");
 }

@@ -1,16 +1,16 @@
 <template>
-  <header class="absolute top-0 w-full z-50">
-    <div class="flex flex-wrap p-6 flex-col lg:flex-row items-center">
+  <header class="absolute top-0 z-50 w-full">
+    <div class="flex flex-col flex-wrap items-center p-6 lg:flex-row">
       <Logo />
       <nav
-        class="lg:ml-auto space-x-12 flex flex-wrap items-center text-base justify-center"
+        class="flex flex-wrap items-center justify-center space-x-12 text-base lg:ml-auto"
       >
-        <a class="h-7 text-lg hover:border-b-2" href="javascript:;">About</a>
-        <a class="h-7 text-lg hover:border-b-2" href="javascript:;">Website</a>
-        <a class="h-7 text-lg hover:border-b-2" href="javascript:;">Branding</a>
+        <router-link class="text-lg border-current h-7 hover:border-b-2" to="/">About</router-link>
+        <a class="text-lg h-7 hover:border-b-2" href="javascript:;">Website</a>
+        <router-link class="text-lg border-current h-7 hover:border-b-2"  :to="{ name: 'Single' }">Branding</router-link>
       </nav>
       <button
-        class="inline-flex items-center lg:ml-6 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 lg:mt-0"
+        class="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded lg:ml-6 focus:outline-none lg:mt-0"
       >
         <svg
           class="w-5 h-5 fill-current"
@@ -43,3 +43,9 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss" scoped>
+  .router-link-active {
+    @apply border-b-2;
+  }
+</style>
