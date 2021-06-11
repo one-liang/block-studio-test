@@ -1,0 +1,1 @@
+import{c as o,b as r,o as s}from"./vendor.3f8ba1e2.js";const t={name:"Arrow",props:["color","direction"]},e={class:"relative"};t.render=function(t,a,l,n,c,i){return s(),o("div",e,[r("div",{class:["absolute bottom-0 w-8 h-px",[l.color,l.direction]]},null,2),r("div",{class:["absolute bottom-0 w-2 h-px transform",[l.color,l.direction]]},null,2)])};export{t as _};
